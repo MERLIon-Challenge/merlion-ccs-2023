@@ -1,7 +1,3 @@
----
-layout: default
-title: Overview
----
 
 ## Overview
 In response to the need for more reliable language identification and language diarization systems, we present: the MERLIon CCS Challenge, the first ever challenge featuring audio recordings from the Talk Together Study, a unique first-of-its-kind Zoom videocall dataset. Aligning closely with Interspeech 2023’s theme, we present the challenge of developing robust language identification and language diarization systems that are reliable for non-standard accented, bilingual, child-directed speech collected via a videocall platform. 
