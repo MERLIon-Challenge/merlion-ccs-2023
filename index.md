@@ -4,6 +4,8 @@ title: Overview
 ---
 
 ## Overview
+In response to the need for more reliable language identification and language diarization systems, we present: the MERLIon CCS Challenge, the first ever challenge featuring audio recordings from the Talk Together Study, a unique first-of-its-kind Zoom videocall dataset. Aligning closely with Interspeech 2023’s theme, we present the challenge of developing robust language identification and language diarization systems that are reliable for non-standard accented, bilingual, child-directed speech collected via a videocall platform. 
+With this challenge, we hope to test the robustness of existing language diarization systems, and to get the research community to propose novel solutions in terms of adaptation, training, and novel embedding extraction for this particular set of tasks. 
 
 
 ## Challenge Proposal
@@ -27,9 +29,9 @@ The [baseline repository](https://github.com/merlion-challenge/MERLIONCCS_Baseli
 
 ## Submission
 
-To Codalab? 
+To Codalab
 
-Submissions should be made by sending an e-mail to **@gmail.com** with an attachment containing a system description and score files for both development and the evaluation protocols. Precise submission instructions are included in the evaluation plan.
+Submissions should be made by sending an e-mail to **merlion-challenge@gmail.com** with an attachment containing a system description and score files for both development and the evaluation protocols. Precise submission instructions are included in the evaluation plan.
 
 ## Planned schedule
 - January 20, 2023 : Release of evaluation plan
@@ -50,4 +52,4 @@ Awards will be presented to participants/teams whose systems achieve the best pe
 
 
 ## Contact
-Please send an e-mail to **@gmail.com** if you have any questions.
+Please send an e-mail to **merlion-challenge@gmail.com** or visit us at our website if you have any questions.
