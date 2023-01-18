@@ -4,23 +4,18 @@ In response to the need for more reliable language identification and language d
 With this challenge, we hope to test the robustness of existing language diarization systems, and to get the research community to propose novel solutions in terms of adaptation, training, and novel embedding extraction for this particular set of tasks. 
 
 
-## Challenge Proposal
-
 ## Registration
 Registration can be done by submitting below form.
 
 [Register](to be provided soon)
 
+
 ## Evaluation plan
 - [v0.1]({{ site.url }}/pdfs/file.pdf)
 - [v0.2]({{ site.url }}/pdfs/file.pdf)
 
-## Datasets
 
-## Baseline repository
-The [baseline repository](https://github.com/merlion-challenge/MERLIONCCS_Baseline) includes various packages for
-- calculating required metrics (i.e., three types of EERs);
-- reproducing `Baseline` described in the evaluation plan.
+## Datasets
 
 
 ## Submission
