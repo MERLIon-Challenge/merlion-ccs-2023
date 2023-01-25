@@ -8,7 +8,7 @@ More information can be found on [our website](https://sites.google.com/view/mer
 ## Registration
 Registration can be done by submitting below form.
 
-[Register] (https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new)
+[Register](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new)
 
 
 ## Evaluation plan
