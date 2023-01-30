@@ -1,6 +1,7 @@
 
 ## Overview
 In response to the need for more reliable language identification and language diarization systems, we present: the MERLIon CCS Challenge, the first ever challenge featuring audio recordings from the Talk Together Study, a unique first-of-its-kind Zoom videocall dataset. Aligning closely with [Interspeech 2023](https://www.interspeech2023.org/)’s theme, we present the challenge of developing robust language identification and language diarization systems that are reliable for non-standard accented, bilingual, child-directed speech collected via a videocall platform. 
+
 With this challenge, we hope to test the robustness of existing language diarization systems, and to get the research community to propose novel solutions in terms of adaptation, training, and novel embedding extraction for this particular set of tasks. 
 
 More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/).
@@ -8,29 +9,29 @@ More information can be found on [our website](https://sites.google.com/view/mer
 This Github page will host the baseline system, scoring scripts and other codes relevant to the challenge.
 
 ## Registration
-Registration can be done by submitting below form.
-
-[Register here](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new)
+To access the MERLIon CCS dataset, please register for the challenge [here](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new)
 
 
 ## Evaluation plan
 - [v0.1](https://bit.ly/merlion-ccs-eval-plan-v1)
 
 
+## Tasks
+
+There are two tasks: Task 1 (Language Identification) and Task 2 (Language Diarization) in the MERLIon CCS Challenge. 
+
+More information about Task 1 (Language Identification) can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-1?authuser=0).
+
+More information about Task 2 (Language Diarization) can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-2?authuser=0).
+
 ## Datasets
 
-### Tasks
+### Training Data
 
-There are two tasks. 
+For both Task 1 and 2, there is a closed track and an open track, placing limits on the amount of training data that can be used. More information on the tracks and the training data can be found [here](https://sites.google.com/view/merlion-ccs-challenge/datasets?authuser=0).
 
-More information about Task 1 can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-1?authuser=0).
-
-More information about Task 2 can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-2?authuser=0).
-
-For both Task 1 and 2, there is a closed track and an open track, depending on the amount of data used. More information on the tracks and the data can be found [here](https://sites.google.com/view/merlion-ccs-challenge/datasets?authuser=0).
-
-### Development Set 
-The development set and evaluation set are Challenge-ready partitions of a larger dataset from the Talk Together Study which examines parent-child interactions in multilingual Singapore, and will be provided by the organizers. 
+### Development and Evaluation Datasets 
+The development set and evaluation set are Challenge-ready partitions of a larger dataset from the [Talk Together Study](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.734936/full) which examines parent-child interactions in multilingual Singapore, and will be provided by the organizers. 
 
 The MERLIon CCS development set is now available! Please [register](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk) for the challenge and we will send you further instructions for accessing the dataset.  
 
@@ -96,4 +97,4 @@ Suzy J Styles, Nanyang Technological University
 
 
 ## Contact
-Please contact Victoria at **merlion-challenge@gmail.com** or visit us at [our website](https://sites.google.com/view/merlion-ccs-challenge/) if you have any questions.
+Please contact Victoria at **merlion.challenge@gmail.com** or visit us at [our website](https://sites.google.com/view/merlion-ccs-challenge/) if you have any questions.
