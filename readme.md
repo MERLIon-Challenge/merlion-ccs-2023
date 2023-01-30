@@ -5,6 +5,8 @@ With this challenge, we hope to test the robustness of existing language diariza
 
 More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/).
 
+This Github page will host the baseline system, scoring scripts and other codes relevant to the challenge.
+
 ## Registration
 Registration can be done by submitting below form.
 
