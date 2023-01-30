@@ -1,15 +1,25 @@
 
 ## Overview
-In response to the need for more reliable language identification and language diarization systems, we present: the MERLIon CCS Challenge, the first ever challenge featuring audio recordings from the Talk Together Study, a unique first-of-its-kind Zoom videocall dataset. Aligning closely with [Interspeech 2023](https://www.interspeech2023.org/)’s theme, we present the challenge of developing robust language identification and language diarization systems that are reliable for non-standard accented, bilingual, child-directed speech collected via a videocall platform. 
+Robust multilingual speech processing systems that can handle diverse recording 
+environments, accents, registers and spontaneous code-switching behaviours across 
+individuals are much needed for advancing progress in fair and inclusive speech 
+technologies. In response to the need for more reliable language identification and language diarization systems, we present the **Multilingual Everyday Recordings – Language Identification on Child-Directed Speech Challenge (MERLIon CCS Challenge)**. 
 
-With this challenge, we hope to test the robustness of existing language diarization systems, and to get the research community to propose novel solutions in terms of adaptation, training, and novel embedding extraction for this particular set of tasks. 
+The MERLIon CCS Challenge has been pre-selected as a special session at [Interspeech 2023](https://www.interspeech2023.org/). 
 
-More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/).
+The MERLIon CCS Challenge features a unique first-of-its-kind Zoom videocall dataset from 
+the [Talk Together Study](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.734936/full), with:  
+- more than 30 hours of Singaporean English/Mandarin code-switched child-directed 
+speech  
+- featuring more than 100 voices 
+- over 300 recordings manually annotated by at least 2 multilingual transcribers 
+
+With the MERLIon CCS challenge, we hope to inspire novel engineering solutions in the field of multilingual language identification and diarization. More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
 
 This Github page will host the baseline system, scoring scripts and other codes relevant to the challenge.
 
 ## Registration
-To access the MERLIon CCS dataset, please register for the challenge [here](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new)
+To access the MERLIon CCS dataset, please register for the challenge [here](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new).
 
 
 ## Evaluation plan
