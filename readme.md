@@ -46,13 +46,35 @@ Sign up for our mailing list or join our LinkedIn group for updates!
 Submissions of results will be made on Codalab. More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/submission?authuser=0).
 
 ## Planned schedule
-- January 20, 2023 : Release of evaluation plan
-- ~~March 10~~ <span style="color:red">March 14</span>, 2023: Result submission
-- ~~March 14~~ <span style="color:red">March 18</span>, 2023: Release of participant ranks
-- March 1, 2023 : INTERSPEECH 2023 Paper submission deadline
-- March 8, 2023: INTERSPEECH 2023 Paper update deadline
-- May 17, 2023: INTERSPEECH Author notification
-- August 20-24, 2023: MERLIon CCS challenge special session at INTERSPEECH 2023
+Registrations Open : 18 Jan 2023 🎉
+
+Registrations Close: 18 Feb 2023
+
+Training Data Partitions Release: 25 Jan 2023 🎉
+
+Evaluation Plan Release: 27 Jan 2023 🎉
+
+Data Release (Development Set): 27 Jan 2023 🎉
+
+Baseline System Release: Coming Soon 
+
+Data Release (Evaluation Set): Coming Soon
+
+Leaderboard Active: 1 Feb 2023
+
+Official Evaluation Closes (Leaderboard Freeze): 28 Feb 2023
+
+System Description Submission: 28 Feb 2023
+
+INTERSPEECH Paper Submission Closes: 1 Mar 2023
+
+INTERSPEECH Paper Update Submission Closes: 8 Mar 2023
+
+Leaderboard Reopens*: 10 Mar 2023
+
+INTERSPEECH Acceptance: 17 May 2023
+
+*After the end of the official challenge period, the leaderboard will reopen for teams who want to continue developing their systems prior to Interspeech session (optional).
 
 
 ## Awards
@@ -60,7 +82,21 @@ Awards will be presented to participants/teams whose systems achieve the best pe
 
 
 ## Organising committee
-- **Name** (Organization, Country)
+Leibny Paola Garcia Perera, Johns Hopkins University
+
+YH Victoria Chua, Nanyang Technological University
+
+Hexin Liu, Nanyang Technological University
+
+Fei Ting Woon, Nanyang Technological University
+
+Andy Khong, Nanyang Technological University
+
+Justin Dauwels, TU Delft
+
+Sanjeev Khudanpur, John Hopkins University
+
+Suzy J Styles, Nanyang Technological University
 
 
 ## Contact
