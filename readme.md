@@ -39,6 +39,17 @@ The training data comprise 200 hours of AISHELL Mandarin data, 100 hours of Libr
 
 An energy-based voice activity detection is performed on the test data to identify the silent parts for the diarization task. Each speech signal is partitioned into speech clips after removing silences before we perform language identification on these clips, where we assume there is no code-switch exists in each speech clip.
 
+For Task 1 (Language Identification), the baseline system achieved the following results on the development set:
+| Equal Error Rate | Balanced Accuracy    | Current Accuracy  |
+| :---:            | :---:                | :---:             |
+|19.1867%          | 50.08%               | 80.8155%          |
+
+For Task 2 (Language Diarization), the baseline system achieved the following results on the development set:
+| Language Diarization Error Rate | English Language Error Rate    | Mandarin Language Error Rate |
+| :---:                           | :---:                          | :---:                        |
+|                                 | 83.93%                         | 99.8%                        |
+  
+
 ## Datasets
 
 ### Training Data
