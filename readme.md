@@ -1,9 +1,7 @@
 
 ## Overview
-Robust multilingual speech processing systems that can handle diverse recording 
-environments, accents, registers and spontaneous code-switching behaviours across 
-individuals are much needed for advancing progress in fair and inclusive speech 
-technologies. In response to the need for more reliable language identification and language diarization systems, we present the **Multilingual Everyday Recordings – Language Identification on Child-Directed Speech Challenge (MERLIon CCS Challenge)**. 
+Robust multilingual speech processing systems that can handle diverse recording environments, accents, registers and spontaneous code-switching behaviours across 
+individuals are much needed for advancing progress in fair and inclusive speech technologies. In response to the need for more reliable language identification and language diarization systems, we present the **Multilingual Everyday Recordings – Language Identification on Child-Directed Speech Challenge (MERLIon CCS Challenge)**. 
 
 The MERLIon CCS Challenge has been pre-selected as a special session at [Interspeech 2023](https://www.interspeech2023.org/). 
 
@@ -14,7 +12,7 @@ speech
 - featuring more than 100 voices 
 - over 300 recordings manually annotated by at least 2 multilingual transcribers 
 
-With the MERLIon CCS challenge, we hope to inspire novel engineering solutions in the field of multilingual language identification and diarization. More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
+More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
 
 This Github page will host the baseline system, scoring scripts and other codes relevant to the challenge.
 
@@ -33,6 +31,13 @@ There are two tasks: Task 1 (Language Identification) and Task 2 (Language Diari
 More information about Task 1 (Language Identification) can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-1?authuser=0).
 
 More information about Task 2 (Language Diarization) can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-2?authuser=0).
+
+## Baseline system
+The baseline system is an end-to-end conformer model for both tasks. The model consists of four conformer encoder layers followed by a statistics pooling layer and three linear layers with ReLU activation in the first two linear layers. All self-attention encoder layers have eight attention heads with input and output dimensions being 512, and the inner layer of the position-wise feed-forward network is of dimensionality 2048. The 39-dimensional Mel Frequency Cepstral Coefficients (MFCC) features comprising 13-dim MFCCs and their first- and second-order deviations are extracted for each speech signal before being fed into the conformer encoder layers. The statistics pooling layer then generates a 1024-dimensional output which is finally projected by three linear layers to the number of target languages. The three linear layers comprise 1024, 512, and 2 output nodes.
+
+The training data comprise 200 hours of AISHELL Mandarin data, 100 hours of Librispeech data, and 100 hours of National Speech Corpus data. The speech signals in these datasets are segmented into maximum of 3s prior to the feature extraction stage. The model is trained for five epochs with batch size 32 and updated with a learning rate that warms up from 0 to 10^-4 in 5000 steps followed by the cosine annealing decay.
+
+An energy-based voice activity detection is performed on the test data to identify the silent parts for the diarization task. Each speech signal is partitioned into speech clips after removing silences before we perform language identification on these clips, where we assume there is no code-switch exists in each speech clip.
 
 ## Datasets
 
