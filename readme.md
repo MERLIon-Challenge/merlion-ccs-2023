@@ -47,7 +47,7 @@ For Task 1 (Language Identification), the baseline system achieved the following
 For Task 2 (Language Diarization), the baseline system achieved the following results on the development set:
 | Language Diarization Error Rate | English Language Error Rate    | Mandarin Language Error Rate |
 | :---:                           | :---:                          | :---:                        |
-|                                 | 83.93%                         | 99.8%                        |
+| 86.6%                           | 83.93%                         | 99.8%                        |
   
 
 ## Datasets
