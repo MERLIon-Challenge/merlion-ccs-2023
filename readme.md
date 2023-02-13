@@ -12,11 +12,8 @@ speech
 - featuring more than 100 voices 
 - over 300 recordings manually annotated by at least 2 multilingual transcribers 
 
-More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
-
-## Registration
 To access the MERLIon CCS dataset, please register for the challenge [here](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new).
-
+More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
 
 ## Evaluation plan
 - [v0.1](https://bit.ly/merlion-ccs-eval-plan-v1)
@@ -24,11 +21,7 @@ To access the MERLIon CCS dataset, please register for the challenge [here](http
 
 ## Tasks
 
-There are two tasks: Task 1 (Language Identification) and Task 2 (Language Diarization) in the MERLIon CCS Challenge. 
-
-More information about Task 1 (Language Identification) can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-1?authuser=0).
-
-More information about Task 2 (Language Diarization) can be found [here](https://sites.google.com/view/merlion-ccs-challenge/task-2?authuser=0).
+There are two tasks: [Task 1 (Language Identification)](https://sites.google.com/view/merlion-ccs-challenge/task-1?authuser=0) and [Task 2 (Language Diarization)](https://sites.google.com/view/merlion-ccs-challenge/task-2?authuser=0) in the MERLIon CCS Challenge. 
 
 ## Baseline system
 The [baseline system](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline) is an end-to-end conformer model for both tasks. The model consists of four conformer encoder layers followed by a statistics pooling layer and three linear layers with ReLU activation in the first two linear layers. All self-attention encoder layers have eight attention heads with input and output dimensions being 512, and the inner layer of the position-wise feed-forward network is of dimensionality 2048. The 39-dimensional Mel Frequency Cepstral Coefficients (MFCC) features comprising 13-dim MFCCs and their first- and second-order deviations are extracted for each speech signal before being fed into the conformer encoder layers. The statistics pooling layer then generates a 1024-dimensional output which is finally projected by three linear layers to the number of target languages. The three linear layers comprise 1024, 512, and 2 output nodes.
@@ -47,7 +40,7 @@ For Task 2 (Language Diarization), the baseline system achieved the following re
 | :---:                           | :---:                          | :---:                        |
 | 86.6%                           | 83.93%                         | 99.8%                        |
   
-The baseline system can be found [here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline). Scoring scripts for generating the primary and secondary metrics for each task can be found[here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline).
+The baseline system can be found [here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline). Scoring scripts for generating the primary and secondary metrics for each task can be found [here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline).
 
 ## Datasets
 
