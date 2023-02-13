@@ -40,7 +40,7 @@ For Task 2 (Language Diarization), the baseline system achieved the following re
 | :---:                           | :---:                          | :---:                        |
 | 86.6%                           | 83.93%                         | 99.8%                        |
   
-The baseline system can be found [here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline). Scoring scripts for generating the primary and secondary metrics for each task can be found [here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline).
+The baseline system and scoring scripts for each task can be found [here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline).
 
 ## Datasets
 
