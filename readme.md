@@ -40,7 +40,7 @@ For Task 1 (Language Identification), the baseline system achieved the following
 For Task 2 (Language Diarization), the baseline system achieved the following results on the MERLIon CCS Development set:
 | Language Diarization Error Rate | English Language Error Rate    | Mandarin Language Error Rate |
 | :---:                           | :---:                          | :---:                        |
-| 0.8404                       | 0.8051                       | 1.0115                      |
+| 86.6%                           | 83.93%                         | 99.8%    
   
 The baseline system and scoring scripts for each task can be found [here](https://github.com/MERLIon-Challenge/merlion-ccs-2023-baseline).
 
