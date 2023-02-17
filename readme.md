@@ -16,7 +16,7 @@ To access the MERLIon CCS dataset, please register for the challenge [here](http
 More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
 
 ## Evaluation plan
-- [v1.2](https://bit.ly/merlion-ccs-eval-plan-v1-2)
+- [v1.2](https://bit.ly/merlion-ccs-eval-plan-v1-2) (Last Updated on 17th Feb 2023)
 - [v1.1](https://bit.ly/merlion-ccs-eval-plan-v1-1)
 - [v1.0](https://bit.ly/merlion-ccs-eval-plan-v1)
 
