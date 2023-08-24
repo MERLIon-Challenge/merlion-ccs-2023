@@ -1,9 +1,24 @@
+## UPDATES (Last Updated 24/8/2023)
+The MERLIon CCS Challenge 2023 was a special session at [Interspeech 2023](https://www.interspeech2023.org/), held on Wednesday 23rd August 2023 (4pm to 6pm). 
+
+For a detailed description of the MERLIon CCS dataset, check out our Interspeech 2023 paper:
+- Y. H. V. Chua, H. Liu, L. P. Garcia Perera, F. T. Woon, J. Wong, X. Zhang, S. Khudanpur, A. W. H. Khong, J. Dauwels, and S. J. Styles, [MERLIon CCS Challenge: A English-Mandarin code-switching child-directed speech corpus for language identification and diarization](https://www.isca-speech.org/archive/pdfs/interspeech_2023/chua23_interspeech.pdf), doi: 10.21437/Interspeech.2023-1446. 
+
+The winning systems for open and closed tracks presented the following papers during the special session: 
+- S. K. Gupta, S. Hiray, P. Kukde (2023). [Spoken Language Identification System for English-Mandarin Code-Switching Child-Directed Speech](https://www.isca-speech.org/archive/pdfs/interspeech_2023/gupta23_interspeech.pdf), doi: 10.21437/Interspeech.2023-1335 
+- M. Shahin, Z. Nan, V. Sethu, B. Ahmed (2023). [Improving wav2vec2-based Spoken Language Identification by Learning Phonological Features](https://www.isca-speech.org/archive/pdfs/interspeech_2023/shahin23_interspeech.pdf), doi: 10.21437/Interspeech.2023-2533.
+- K. Praveen, B. Radhakrishnan, K. Sabu, A. Pandey, M. A. B. Shaik (2023). [Language Identification Networks for Multilingual Everyday Recordings](https://www.isca-speech.org/archive/pdfs/interspeech_2023/gupta23_interspeech.pdf), doi: 10.21437/Interspeech.2023-2047.
+
+We also presented an analysis of common errors where submitted systems collectively struggle when performing language identification on complex speech: 
+- S. J. Styles, Y. H. V. Chua, F. T. Woon, H. Liu, L. P. Garcia Perera, S. Khudanpur, A. W. H. Khong, and J. Dauwels (2023). [Investigating model performance in language identification: beyond simple error statistics](https://www.isca-speech.org/archive/pdfs/interspeech_2023/styles23_interspeech.pdf), doi: 10.21437/Interspeech.2023-1707
+
+The MERLIon CCS Challenge will remain open indefinitely to encourage model development. The development and evaluation set is publicly available (https://doi.org/10.21979/N9/ANXS8Z).
+When using the dataset, please cite:
+- Chua, Victoria Yi Han; Garcia Perera, Leibny Paola; Khudanpur, Sanjeev; Khong, Andy W. H.; Dauwels, Justin; Woon, Fei Ting; Styles, Suzy J, 2023, "Development and Evaluation data for Multilingual Everyday Recordings - Language Identification on Code-Switched Child-Directed Speech (MERLIon CCS) Challenge", https://doi.org/10.21979/N9/ANXS8Z, DR-NTU (Data), V1
 
 ## Overview
 Robust multilingual speech processing systems that can handle diverse recording environments, accents, registers and spontaneous code-switching behaviours across 
 individuals are much needed for advancing progress in fair and inclusive speech technologies. In response to the need for more reliable language identification and language diarization systems, we present the **Multilingual Everyday Recordings – Language Identification on Child-Directed Speech Challenge (MERLIon CCS Challenge)**. 
-
-The MERLIon CCS Challenge has been pre-selected as a special session at [Interspeech 2023](https://www.interspeech2023.org/). 
 
 The MERLIon CCS Challenge features a unique first-of-its-kind Zoom videocall dataset from 
 the [Talk Together Study](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.734936/full), with:  
@@ -12,11 +27,10 @@ speech
 - featuring more than 100 voices 
 - over 300 recordings manually annotated by at least 2 multilingual transcribers 
 
-To access the MERLIon CCS dataset, please register for the challenge [here](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk?jfefe=new).
-More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
+More information on can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/). 
 
 ## Evaluation plan
-- [v1.2](https://bit.ly/merlion-ccs-eval-plan-v1-2) (Last Updated on 17th Feb 2023)
+- [v1.2](https://arxiv.org/abs/2305.19493) (Last Updated on 17th Feb 2023; Uploaded to arXiV on 31 May 2023)
 - [v1.1](https://bit.ly/merlion-ccs-eval-plan-v1-1)
 - [v1.0](https://bit.ly/merlion-ccs-eval-plan-v1)
 
@@ -51,11 +65,12 @@ The baseline system and scoring scripts for each task can be found [here](https:
 For both Task 1 and 2, there is a closed track and an open track, placing limits on the amount of training data that can be used. More information on the tracks and the training data can be found [here](https://sites.google.com/view/merlion-ccs-challenge/datasets?authuser=0).
 
 ### Development and Evaluation Datasets 
-The development set and evaluation set are Challenge-ready partitions of a larger dataset from the [Talk Together Study](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.734936/full) which examines parent-child interactions in multilingual Singapore, and will be provided by the organizers. Please [register](https://ntusingapore.qualtrics.com/jfe/form/SV_1LY2Irep9sEkITk) for the challenge and we will send you further instructions for accessing the datasets.
+The development set and evaluation set are Challenge-ready partitions of a larger dataset from the [Talk Together Study](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.734936/full) which examines parent-child interactions in multilingual Singapore, and is now publicly available (https://doi.org/10.21979/N9/ANXS8Z).
 
 ## Submission
 
-Submissions of results will be made on CodaLab. More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/submission?authuser=0).
+Submissions of results will be made on CodaLab pages. More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/submission?authuser=0).
+NOTE: The CodaLab pages will re-open after Interspeech 2023 around the first week of September 2023. 
 
 ## Organising committee
 Leibny Paola Garcia Perera, Johns Hopkins University
@@ -66,7 +81,6 @@ Andy Khong, Nanyang Technological University
 Justin Dauwels, TU Delft
 Sanjeev Khudanpur, John Hopkins University
 Suzy J Styles, Nanyang Technological University
-
 
 ## Contact
 Please contact Victoria at **merlion.challenge@gmail.com** or visit us at [our website](https://sites.google.com/view/merlion-ccs-challenge/) if you have any questions. 
