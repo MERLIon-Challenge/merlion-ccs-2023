@@ -73,14 +73,14 @@ Submissions of results will be made on CodaLab pages. More information can be fo
 NOTE: The CodaLab pages will re-open after Interspeech 2023 around the first week of September 2023. 
 
 ## Organising committee
-Leibny Paola Garcia Perera, Johns Hopkins University
-YH Victoria Chua, Nanyang Technological University
-Hexin Liu, Nanyang Technological University
-Fei Ting Woon, Nanyang Technological University
-Andy Khong, Nanyang Technological University
-Justin Dauwels, TU Delft
-Sanjeev Khudanpur, John Hopkins University
-Suzy J Styles, Nanyang Technological University
+-Leibny Paola Garcia Perera, Johns Hopkins University
+-YH Victoria Chua, Nanyang Technological University
+-Hexin Liu, Nanyang Technological University
+-Fei Ting Woon, Nanyang Technological University
+-Andy Khong, Nanyang Technological University
+-Justin Dauwels, TU Delft
+-Sanjeev Khudanpur, John Hopkins University
+-Suzy J Styles, Nanyang Technological University
 
 ## Contact
 Please contact Victoria at **merlion.challenge@gmail.com** or visit us at [our website](https://sites.google.com/view/merlion-ccs-challenge/) if you have any questions. 
