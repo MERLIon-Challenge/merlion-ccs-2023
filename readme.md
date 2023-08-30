@@ -16,6 +16,8 @@ The MERLIon CCS Challenge will remain open indefinitely to encourage model devel
 When using the dataset, please cite:
 - Chua, Victoria Yi Han; Garcia Perera, Leibny Paola; Khudanpur, Sanjeev; Khong, Andy W. H.; Dauwels, Justin; Woon, Fei Ting; Styles, Suzy J, 2023, "Development and Evaluation data for Multilingual Everyday Recordings - Language Identification on Code-Switched Child-Directed Speech (MERLIon CCS) Challenge", https://doi.org/10.21979/N9/ANXS8Z, DR-NTU (Data), V1
 
+The evaluation plan for the challenge can be found in the following sections. 
+
 ## Overview
 Robust multilingual speech processing systems that can handle diverse recording environments, accents, registers and spontaneous code-switching behaviours across 
 individuals are much needed for advancing progress in fair and inclusive speech technologies. In response to the need for more reliable language identification and language diarization systems, we present the **Multilingual Everyday Recordings – Language Identification on Child-Directed Speech Challenge (MERLIon CCS Challenge)**. 
