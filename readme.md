@@ -1,20 +1,22 @@
-## UPDATES (Last Updated 24/8/2023)
+## UPDATES (Last Updated 28/5/2024)
+
 The MERLIon CCS Challenge 2023 was a special session at [Interspeech 2023](https://www.interspeech2023.org/), held on Wednesday 23rd August 2023 (4pm to 6pm). 
 
+**The MERLIon CCS Challenge will remain open indefinitely to encourage model development. The development and evaluation set is publicly available (https://doi.org/10.21979/N9/ANXS8Z).**
+
+When using the dataset, please cite:
+- Chua, Victoria Yi Han; Garcia Perera, Leibny Paola; Khudanpur, Sanjeev; Khong, Andy W. H.; Dauwels, Justin; Woon, Fei Ting; Styles, Suzy J, 2023, "Development and Evaluation data for Multilingual Everyday Recordings - Language Identification on Code-Switched Child-Directed Speech (MERLIon CCS) Challenge", https://doi.org/10.21979/N9/ANXS8Z, DR-NTU (Data), V1
+ 
 For a detailed description of the MERLIon CCS dataset, check out our Interspeech 2023 paper:
 - Y. H. V. Chua, H. Liu, L. P. Garcia Perera, F. T. Woon, J. Wong, X. Zhang, S. Khudanpur, A. W. H. Khong, J. Dauwels, and S. J. Styles, [MERLIon CCS Challenge: A English-Mandarin code-switching child-directed speech corpus for language identification and diarization](https://www.isca-speech.org/archive/pdfs/interspeech_2023/chua23_interspeech.pdf), doi: 10.21437/Interspeech.2023-1446. 
 
-The winning systems for open and closed tracks presented the following papers during the special session: 
+The winning systems for open and closed tracks presented the following papers during the INTERSPEECH 2023 special session: 
 - S. K. Gupta, S. Hiray, P. Kukde (2023). [Spoken Language Identification System for English-Mandarin Code-Switching Child-Directed Speech](https://www.isca-speech.org/archive/pdfs/interspeech_2023/gupta23_interspeech.pdf), doi: 10.21437/Interspeech.2023-1335 
 - M. Shahin, Z. Nan, V. Sethu, B. Ahmed (2023). [Improving wav2vec2-based Spoken Language Identification by Learning Phonological Features](https://www.isca-speech.org/archive/pdfs/interspeech_2023/shahin23_interspeech.pdf), doi: 10.21437/Interspeech.2023-2533.
 - K. Praveen, B. Radhakrishnan, K. Sabu, A. Pandey, M. A. B. Shaik (2023). [Language Identification Networks for Multilingual Everyday Recordings](https://www.isca-speech.org/archive/pdfs/interspeech_2023/gupta23_interspeech.pdf), doi: 10.21437/Interspeech.2023-2047.
 
 We also presented an analysis of common errors where submitted systems collectively struggle when performing language identification on complex speech: 
 - S. J. Styles, Y. H. V. Chua, F. T. Woon, H. Liu, L. P. Garcia Perera, S. Khudanpur, A. W. H. Khong, and J. Dauwels (2023). [Investigating model performance in language identification: beyond simple error statistics](https://www.isca-speech.org/archive/pdfs/interspeech_2023/styles23_interspeech.pdf), doi: 10.21437/Interspeech.2023-1707
-
-The MERLIon CCS Challenge will remain open indefinitely to encourage model development. The development and evaluation set is publicly available (https://doi.org/10.21979/N9/ANXS8Z).
-When using the dataset, please cite:
-- Chua, Victoria Yi Han; Garcia Perera, Leibny Paola; Khudanpur, Sanjeev; Khong, Andy W. H.; Dauwels, Justin; Woon, Fei Ting; Styles, Suzy J, 2023, "Development and Evaluation data for Multilingual Everyday Recordings - Language Identification on Code-Switched Child-Directed Speech (MERLIon CCS) Challenge", https://doi.org/10.21979/N9/ANXS8Z, DR-NTU (Data), V1
 
 The evaluation plan for the challenge can be found in the following sections. 
 
@@ -71,8 +73,9 @@ The development set and evaluation set are Challenge-ready partitions of a large
 
 ## Submission
 
-Submissions of results will be made on CodaLab pages. More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/submission?authuser=0).
-NOTE: The CodaLab pages will re-open after Interspeech 2023 around the first week of September 2023. 
+Submissions of results can be made on our CodaLab pages. More information can be found on [our website](https://sites.google.com/view/merlion-ccs-challenge/submission?authuser=0).
+
+NOTE: The CodaLab pages have re-opened after Interspeech 2023. Please read the instructions on our website carefully for the formatting of results submission files and folders. 
 
 ## Organising committee
 -Leibny Paola Garcia Perera, Johns Hopkins University
@@ -85,6 +88,6 @@ NOTE: The CodaLab pages will re-open after Interspeech 2023 around the first wee
 -Suzy J Styles, Nanyang Technological University
 
 ## Contact
-Please contact Victoria at **merlion.challenge@gmail.com** or visit us at [our website](https://sites.google.com/view/merlion-ccs-challenge/) if you have any questions. 
+Please contact Victoria Chua at **merlion.challenge@gmail.com** or visit us at [our website](https://sites.google.com/view/merlion-ccs-challenge/) if you have any questions. 
 
 Sign up for our [mailing list](https://groups.google.com/u/1/g/merlion-ccs-challenge) or join our [LinkedIn group](https://www.linkedin.com/groups/14193386/) for updates!
